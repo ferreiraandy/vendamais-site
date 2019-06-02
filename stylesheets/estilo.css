@@ -1,0 +1,52 @@
+body{ overflow-x: hidden }
+.section-default{ background: #FFF; }
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.block-title,
+svg#plus-rotate{
+  color: #FFF;
+  font-size: 6rem;
+  font-weight: 300;
+  fill: #FFF;
+}
+svg#plus-rotate{
+  animation: rotate 3s linear infinite;
+  width: 8%;
+  margin: 0 0 0 0;
+  padding: 0px;
+}
+#background-fixed,
+.background-fixed .camada-transparent3{
+  top: 0px; left: 0px; right: 0px; bottom: 0px;
+}
+#background-fixed{
+  position: fixed;
+  background: #FFF url('../images/background-fixed.png') no-repeat center center fixed;
+  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+}
+.background-fixed{ background: transparent; }
+.background-fixed .camada-transparent3{
+  background: #333;
+  opacity: 0.3;
+  position: absolute;
+}
+.background-fixed h3{
+  color: #FFF;
+  font-size: 3rem;
+  font-weight: 400;
+}
+footer{
+  background: #333;
+  padding: 40px 0px 20px;
+}
+footer h1,
+footer div{
+	color: #FFF;
+}
