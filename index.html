@@ -145,26 +145,35 @@
       <div class="container">
         <div class="row">
           <h1 class="pi-draggable pi-item" draggable="true">Contato</h1>
-          <form>
+
+          <form action="https://formspree.io/andyferreira92@gmail.com" method="POST">
             <div class="col-md-6 col-sm-12 col-xs-12">
               <fieldset class="form-group">
-                <input type="text" class="form-control" id="name" placeholder="Nome">
+                <input type="text" class="form-control" id="name" placeholder="Nome" name="name">
               </fieldset>
+
               <fieldset class="form-group">
-                <input type="email" class="form-control" id="email" placeholder="Email">
+                <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto">
               </fieldset>
+
               <fieldset class="form-group">
-                <input type="text" class="form-control" id="tellphone" placeholder="Telefone">
+                <input type="text" class="form-control" id="tellphone"
+                placeholder="Telefone" name="phone">
               </fieldset>
+
               <fieldset class="form-group">
-                <input type="text" class="form-control" id="subject" placeholder="Assunto">
+                <input type="text" class="form-control" id="subject"
+                placeholder="Assunto" name="subject">
               </fieldset>
             </div>
+
             <div class="col-md-6 col-sm-12 col-xs-12">
               <fieldset class="form-group">
-                <textarea type="text" class="form-control" id="message" style="height: 145px;" placeholder="Mensagem">
+                <textarea type="text" class="form-control" id="message"
+                  style="height: 145px;" placeholder="Mensagem" name="message">
                 </textarea>
               </fieldset>
+
               <button type="submit" class="btn btn-primary text-right">Enviar</button>
             </div>
           </form>
@@ -175,7 +184,7 @@
     <footer>
       <div class="container">
         <div class="row">
-        
+
           <div class="col-md-6">
             <h1 class="pi-draggable pi-item" draggable="true">Venda Mais</h1>
             <p>
